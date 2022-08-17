@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    window.confirm("ready to run the program");
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+    $("p").css("color", "red").toggle(2000);
+  });
+  $("#show").click(function(){
+    $("p").show();
+    $("p").css("color", "red").toggle(2000);
+  });
+  
+});
+</script>
+</head>
+<body>
+<div id="div1" style="width:200px;height:200px;display:none;);"></div>
+<p> <img src="C:\Users\student\Pictures\Screenshots\Screenshot (2).png" style="width:200px;height: 200px;background-color:black;" ></p>
+
+<button id="hide">show</button>
+<button id="show">hide</button>
+
+</body>
+</html>
